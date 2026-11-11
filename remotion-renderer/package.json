@@ -1,0 +1,21 @@
+{
+  "name": "remotion-chatgpt-renderer",
+  "private": true,
+  "version": "0.1.1",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node server.mjs",
+    "studio": "remotion studio src/index.jsx"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.538",
+    "@remotion/renderer": "4.0.538",
+    "remotion": "4.0.538",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "@remotion/cli": "4.0.538"
+  }
+}
